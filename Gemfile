@@ -35,6 +35,16 @@ gem 'config'
 gem 'business_time'
 # gem 'cocoon', path: '/projects/cocoon'
 gem 'cocoon', git: 'https://github.com/ymatusevich/cocoon'
+gem 'dragonfly', '~> 1.1.5'
+gem 'google-api-client'
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
+
+
+# fix vulnerabilities
+#
+gem 'rubyzip', '>= 1.2.2'
+gem 'loofah', '>= 2.2.3'
 
 group :development do
   gem 'better_errors'
